@@ -144,3 +144,15 @@ In the application Sass file, replace `@import 'tabler'` with:
 https://github.com/tabler/tabler/tree/master/dist/assets/plugins
 [autoprefixer]: https://github.com/ai/autoprefixer
 [popper.js]: https://popper.js.org
+
+## Contributing
+
+To set up the project and run the tests you must ensure you have the necessary browser driver installed: `brew cask install chromedriver`
+
+```
+$ mkdir tmp/
+$ bundle install
+$ rake
+```
+
+Run tests on all supported Rails versions: `rake test_all_gemfiles`

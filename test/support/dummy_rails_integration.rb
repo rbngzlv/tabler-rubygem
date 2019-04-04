@@ -17,7 +17,7 @@ module DummyRailsIntegration
 
   def screenshot!
     path = "tmp/#{name}.png"
-    page.driver.render(File.join(GEM_PATH, path), full: true)
+    page.driver.browser.save_screenshot(File.join(GEM_PATH, path))
     STDERR.puts "Screenshot saved to #{path}"
   end
 
