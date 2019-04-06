@@ -139,7 +139,7 @@ https://github.com/tabler/tabler/tree/master/dist/assets/plugins
 [autoprefixer]: https://github.com/ai/autoprefixer
 [popper.js]: https://popper.js.org
 
-## Contributing
+## Development
 
 To set up the project and run the tests you must ensure you have the necessary browser driver installed: `brew cask install chromedriver`
 
