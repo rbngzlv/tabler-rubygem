@@ -15,16 +15,10 @@ Please see the appropriate guide for your environment of choice:
 
 ------------------------
 
-**v0.1.4 BREAKING CHANGE:**
-
-Images are no longer included by default. Instead, you can include all the image sets or the specific image sets you want (either browser, flag, and/or payments).  Read below for more info on how to do this.
-
-------------
-
 Add `bootstrap` and `tabler-rubygem` to your Gemfile:
 
 ```ruby
-gem 'bootstrap', '~> 4.1.1'
+gem 'bootstrap', '~> 4.3.1'
 gem 'tabler-rubygem'
 ```
 

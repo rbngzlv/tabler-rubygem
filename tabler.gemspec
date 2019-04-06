@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.license  = 'MIT'
 
   s.add_runtime_dependency 'autoprefixer-rails', '>= 6.0.3'
+  s.add_runtime_dependency 'bootstrap', '~> 4.3.1'
 
   # Testing dependencies
   s.add_development_dependency 'minitest', '~> 5.8.0'

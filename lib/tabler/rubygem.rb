@@ -13,8 +13,6 @@ module Tabler
         elsif sprockets?
           register_sprockets
         end
-
-        configure_sass
       end
 
       # Paths
@@ -48,12 +46,6 @@ module Tabler
       end
 
       private
-
-      def configure_sass
-        require 'sass'
-
-        ::Sass.load_paths << stylesheets_path
-      end
 
       def register_rails_engine
         require 'tabler/rubygem/engine'
