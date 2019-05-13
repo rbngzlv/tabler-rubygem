@@ -1,5 +1,4 @@
 require 'tabler/rubygem/version'
-require 'popper_js'
 
 module Tabler
   module Rubygem
